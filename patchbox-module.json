@@ -15,6 +15,5 @@
         "install": "install.sh",
         "launch": "launch.sh",
         "list": "list.sh",
-        "stop": "stop.sh"
     }
 }
