@@ -6,14 +6,15 @@
     "launch_mode": "auto",
     "depends_on": [
         "jack.service",
-        {
-            "service": "amidiauto.service",
-            "config": "amidiauto.conf"
+		{
+			"service": "amidiauto.service",
+			"config": "amidiauto.conf"
         }
     ],
+    "services": [
+	],
     "scripts": {
         "install": "install.sh",
         "launch": "launch.sh",
-        "list": "list.sh",
     }
 }
