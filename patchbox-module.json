@@ -1,20 +1,18 @@
 {
     "name": "M8C",
-    "version": "1",
+    "version": "0.0.1",
     "description": "M8C for RaspberryPi 4",
     "author": "RowdyVoyeur",
     "launch_mode": "auto",
     "depends_on": [
         "jack.service",
-		{
-			"service": "amidiauto.service",
-			"config": "amidiauto.conf"
-        }
+	"service": "amidiauto.service",
     ],
     "services": [
 	],
     "scripts": {
         "install": "install.sh",
         "launch": "launch.sh",
+	"stop": "stop.sh",
     }
 }
