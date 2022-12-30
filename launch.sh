@@ -44,6 +44,4 @@ jack_connect system:capture_1 MC101in:playback_2
 sleep 1
 
 # start M8 client
-pushd /home/pi/m8c-rpi4
-./m8c
-popd
+. /home/pi/m8c-rpi4/m8c
