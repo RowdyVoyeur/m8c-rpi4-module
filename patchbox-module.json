@@ -1,6 +1,6 @@
 {
 	"name": "M8C",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "M8C for RaspberryPi 4",
 	"author": "RowdyVoyeur",
 	"launch_mode": "auto",
