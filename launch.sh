@@ -44,4 +44,11 @@ jack_connect system:capture_1 MC101in:playback_2
 sleep 1
 
 # start M8 client
-. /home/pi/m8c-rpi4/m8c
+pushd /home/patch/m8c-rpi4
+./m8c
+popd
+
+# clean up audio routing, wait 5 seconds and shutdown the Raspberry Pi
+killall -s SIGINT jackd alsa_out alsa_in
+sleep 5
+sudo shutdown now
