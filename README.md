@@ -18,6 +18,6 @@ It expects to have m8c-rpi4 installed at:
 ## Notes
 
 Sources:
-[Patchbox Modules](https://blokas.io/patchbox-os/docs/modules/)
+[Learn More About Patchbox Modules](https://blokas.io/patchbox-os/docs/modules/)
 
-[Creating Modules](https://blokas.io/patchbox-os/docs/creating-a-module/)
+[How to Create Patchbox Modules](https://blokas.io/patchbox-os/docs/creating-a-module/)
