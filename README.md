@@ -5,17 +5,12 @@ This is a module for Patchbox OS to autostart m8c-rpi4. It's still a work in pro
 
 ## Install
 
-To install this module, just run:
+To install this module, run the command below. Note that the module expects to have m8c-rpi4 already installed at ```/usr/local/m8c-rpi4/```:
 ```
 patchbox module install https://github.com/RowdyVoyeur/m8c-rpi4-module
 ```
 
-Please note that the modulde expects to have m8c-rpi4 installed at:
-```
-/usr/local/m8c-rpi4/
-```
-
-To activate the module, run the following:
+To activate the module, just run the following:
 ```
 patchbox module activate m8c-rpi4-module
 ```
@@ -24,7 +19,7 @@ Alternatively, run ```patchbox```, go to modules menu and select ```m8c-rpi4-mod
 
 ## Deactivate and Uninstall
 
-To deactivate the module, run:
+To deactivate the module, just run:
 ```
 patchbox module deactivate
 ```
