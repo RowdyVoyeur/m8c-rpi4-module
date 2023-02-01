@@ -32,10 +32,10 @@ cd .usr/local/patchbox-modules/imported
 sudo rm -rf m8c-rpi4-module
 ```
 
-## Notes
-
-Sources:
+## References
 
 [Learn More About Patchbox Modules](https://blokas.io/patchbox-os/docs/modules/)
 
 [How to Create Patchbox Modules](https://blokas.io/patchbox-os/docs/creating-a-module/)
+
+[Complete Reference of patchbox-module.json](https://blokas.io/patchbox-os/docs/patchbox-module-json/)
