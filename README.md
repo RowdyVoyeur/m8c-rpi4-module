@@ -1,7 +1,7 @@
 # M8C Module for Patchbox OS
 
 ## Introduction
-This is a module for Patchbox OS to autostart m8c-rpi4. It's still a work in progress and does not work yet as intended.
+This is a module for Patchbox OS to autostart m8c-rpi4 on boot. Therefore, it should be used together with [m8c-rpi4](https://github.com/RowdyVoyeur/m8c-rpi4).
 
 ## Install
 
