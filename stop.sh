@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# clean up audio routing, wait 5 seconds and shutdown the Raspberry Pi
+# clean up audio routing
 killall -s SIGINT jackd alsa_out alsa_in
-sleep 5
-sudo shutdown now
+
+# wait 5 seconds and shutdown the Raspberry Pi
+#sleep 5
+#sudo shutdown now
