@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Clean up audio routing
-killall -s SIGINT alsa_out alsa_in
+# Terminate M8C and clean up audio routing
+killall -s SIGINT m8c alsa_out alsa_in
