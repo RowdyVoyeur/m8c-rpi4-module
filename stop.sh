@@ -7,4 +7,4 @@ M8C_PID=$(pidof m8c)
 kill $M8C_PID
 
 # Clean up audio routing
-killall -s SIGINT jack_connect alsa_out alsa_in
+killall -s SIGINT alsa_out alsa_in
