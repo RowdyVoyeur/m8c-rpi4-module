@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# clean up audio routing
-killall -s SIGINT jackd alsa_out alsa_in
+# Get the PID of the M8C program
+M8C_PID=$(pidof m8c)
 
-# wait 5 seconds and shutdown the Raspberry Pi
-#sleep 5
-#sudo shutdown now
+# Terminate the M8C program
+kill $M8C_PID
+
+# Clean up audio routing
+killall -s SIGINT jack_connect alsa_out alsa_in
