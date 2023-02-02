@@ -33,7 +33,8 @@ Alternatively, run ```patchbox```, go to modules menu and select ```none``` modu
 
 This module is installed in ```/usr/local/patchbox-modules/imported/```, so if you wish to completely delete it run:
 ```
-cd .usr/local/patchbox-modules/imported
+cd /
+cd usr/local/patchbox-modules/imported
 sudo rm -rf m8c-rpi4-module
 ```
 
