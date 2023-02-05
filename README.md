@@ -16,7 +16,7 @@ To install this module, run the command below:
 ```
 patchbox module install https://github.com/RowdyVoyeur/m8c-rpi4-module
 ```
-The module expects to have [m8c-rpi4](https://github.com/RowdyVoyeur/m8c-rpi4) already installed at ```/usr/local/m8c-rpi4/``` or, alternatively, at ```home/pi/m8c-rpi4```. In this last case, it should have a symbolic link to the location where the [launch script](https://github.com/RowdyVoyeur/m8c-rpi4-module/blob/main/launch.sh) expects to find M8C, i.e. ```sudo ln -s ~/m8c-rpi4```
+The module expects to have [m8c-rpi4](https://github.com/RowdyVoyeur/m8c-rpi4) already installed at ```home/patch/m8c-rpi4```.
 
 To activate the module, just run the following:
 ```
