@@ -26,7 +26,7 @@ patchbox module activate m8c-rpi4-module
 ```
 Alternatively, run ```patchbox```, go to modules menu and select ```m8c-rpi4-module``` module.
 
-## Customize the MIDI Configuration
+## MIDI Configuration
 
 The [amidiauto.conf](https://github.com/RowdyVoyeur/m8c-rpi4-module/blob/main/amidiauto.conf) configuration file will tell the system which MIDI devices should be automatically connected on boot and what is their routing. This configuration file is currently connecting the MC-101 and the nanoKONTROL to the M8.
 
@@ -49,6 +49,10 @@ cd /
 cd usr/local/patchbox-modules/imported
 sudo rm -rf m8c-rpi4-module
 ```
+
+## Notes
+
+This module has been tested with Patchbox OS version 2022-05-17. Please let me know if you're having issues running it on different Patchbox versions.
 
 ## References
 
