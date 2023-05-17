@@ -36,7 +36,7 @@ To customise the MIDI connections to your personal needs, you will have to edit 
 ```
 sudo nano usr/local/patchbox-modules/imported/m8c-rpi4-module/amidiauto.conf
 ```
-You should also visit [this page](https://community.blokas.io/t/midi-connection-manager/567/8) to understand how things work and. if necessary, list all the connected MIDI devices to find their names with the following command:
+You should also visit [this page](https://community.blokas.io/t/midi-connection-manager/567/8) to understand how things work and, if necessary, list all the connected MIDI devices to find their names with the following command:
 ```
 aconnect -l
 ```
