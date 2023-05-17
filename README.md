@@ -10,7 +10,7 @@ There are three main benefits of using this module:
 
 - Switch between different Patchbox OS modules such as [MODEP](https://blokas.io/modep/), [Orac](https://community.blokas.io/t/orac-2-0-for-the-raspberry-pi/1099) or [Pure Data](https://puredata.info/), which will let you take full advantage of this audio oriented OS and use the Raspberry Pi for far more things than just running the M8C.
 
-Please note that this project is not affiliated with [Dirtywave](https://dirtywave.com/) and there is no guarantee or support from either the manufacturer or myself. You can build it at your own risk.
+Please note that this project is not affiliated with [Dirtywave](https://dirtywave.com/) and there is no guarantee or support from either the manufacturer or myself. You can use it at your own risk.
 
 ## Install
 
