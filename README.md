@@ -30,9 +30,13 @@ Alternatively, run ```patchbox```, go to modules menu and select ```m8c-rpi4-mod
 
 The [amidiauto.conf](https://github.com/RowdyVoyeur/m8c-rpi4-module/blob/main/amidiauto.conf) configuration file will tell the system which MIDI devices should be automatically connected on boot and what is their routing. This configuration file is currently connecting the MC-101 and the nanoKONTROL to the M8.
 
-To customize the MIDI connections to your personal needs, you will have to edit the [amidiauto.conf](https://github.com/RowdyVoyeur/m8c-rpi4-module/blob/main/amidiauto.conf) file with the following command:
+To customise the MIDI connections to your personal needs, you will have to edit the [amidiauto.conf](https://github.com/RowdyVoyeur/m8c-rpi4-module/blob/main/amidiauto.conf) file with the following command:
 ```
 sudo nano usr/local/patchbox-modules/imported/m8c-rpi4-module/amidiauto.conf
+```
+You should also visit [this page](https://community.blokas.io/t/midi-connection-manager/567/8) to understand how things work and. if necessary, list all the connected MIDI devices to find their names with the following command:
+```
+aconnect -l
 ```
 
 ## Deactivate and Uninstall
