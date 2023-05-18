@@ -4,7 +4,7 @@
 This is a module for Patchbox OS to autostart [M8C](https://github.com/laamaa/m8c) on boot. Since this module was developed specifically for Raspberry Pi 4, it should be used together with [m8c-rpi4](https://github.com/RowdyVoyeur/m8c-rpi4).
 There are three main benefits of using this module:
 
-- Automatically start the M8 Client on Raspberry Pi boot without having to resort to ```systemd``` or ```crontab```, which simplifies the installation process;
+- Automatically start the M8 Client on Raspberry Pi boot without having to resort to `systemd` or `crontab`, which simplifies the installation process;
 
 - Automatically connect the prefered MIDI devices, listed in the [amidiauto.conf](https://github.com/RowdyVoyeur/m8c-rpi4-module/blob/main/amidiauto.conf) configuration file;
 
@@ -18,13 +18,13 @@ To install this module, run the command below:
 ```
 patchbox module install https://github.com/RowdyVoyeur/m8c-rpi4-module
 ```
-The module expects to have [m8c-rpi4](https://github.com/RowdyVoyeur/m8c-rpi4) already installed at ```home/patch/m8c-rpi4``` and the [script](https://github.com/RowdyVoyeur/m8c-rpi4/blob/main/m8c.sh) to be executable by everyone. Please read the [installation guide](https://github.com/RowdyVoyeur/m8c-rpi4/blob/main/README.md#installation) for mode details.
+The module expects to have [m8c-rpi4](https://github.com/RowdyVoyeur/m8c-rpi4) already installed at `home/patch/m8c-rpi4` and the [script](https://github.com/RowdyVoyeur/m8c-rpi4/blob/main/m8c.sh) to be executable by everyone. Please read the [installation guide](https://github.com/RowdyVoyeur/m8c-rpi4/blob/main/README.md#installation) for mode details.
 
 To activate the module, just run the following:
 ```
 patchbox module activate m8c-rpi4-module
 ```
-Alternatively, run ```patchbox```, go to modules menu and select ```m8c-rpi4-module``` module.
+Alternatively, run `patchbox`, go to modules menu and select `m8c-rpi4-module` module.
 
 ## MIDI Configuration
 
@@ -47,9 +47,9 @@ To deactivate the module, just run:
 ```
 patchbox module deactivate
 ```
-Alternatively, run ```patchbox```, go to modules menu and select ```none``` module.
+Alternatively, run `patchbox`, go to modules menu and select `none` module.
 
-This module is installed in ```/usr/local/patchbox-modules/imported/```, so if you wish to completely delete it run:
+This module is installed in `/usr/local/patchbox-modules/imported/`, so if you wish to completely delete it run:
 ```
 cd /
 cd usr/local/patchbox-modules/imported
@@ -58,7 +58,7 @@ sudo rm -rf m8c-rpi4-module
 
 ## Notes
 
-This module has been tested with Patchbox OS version 2022-05-17. Please let me know if you're having issues running it on different Patchbox versions.
+This module has been tested with [Patchbox OS version 2022-05-17](https://community.blokas.io/t/beta-patchbox-os-image-2022-05-17/3774). Please let me know if you're having issues running it on different Patchbox OS versions.
 
 ## References
 
